@@ -11,7 +11,7 @@
 
 <link href="css/base.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
-<link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 <link rel="stylesheet" href="src/jquery.gDialog.css">
 
@@ -23,7 +23,7 @@
 <style>
 button { border:0;}
 .container { margin:50px auto; max-width:728px;text-align:center;font-family:Arial;}
-.btn {background-color:#ED5565; color:#fff; padding:20px; margin:10px 30px; border-radius:5px; border-bottom:3px solid #DA4453;}
+.btn {background-color:#ED5565; color:#fff; padding:20px; margin:auto 0; border-radius:5px; border-bottom:3px solid #DA4453;}
 </style>
 </head>
 <body>
@@ -99,7 +99,10 @@ $('.demo-2').click(function(){
 		animateOut: "rollOut"
 	});
 }); 
-                        
+
+$('.button-ok').on("click",function(){
+	alert("test");
+});                   
 </script>
 
 
